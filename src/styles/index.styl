@@ -1,0 +1,14 @@
+@require 'settings/breakpoints.styl'
+
+// We need !important to override default style added by cozy-ui.
+
+html
+    height 100% !important // @stylint ignore
+
+body
+    height 100% !important // @stylint ignore
+
+iframe
+    +medium-screen()
+        height calc(100% - 3rem)
+        padding-top 3rem

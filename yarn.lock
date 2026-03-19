@@ -4020,10 +4020,10 @@ cozy-app-publish@^0.42.1:
     tar "^6.1.11"
     verror "^1.10.1"
 
-cozy-bar@^29.2.0:
-  version "29.2.0"
-  resolved "https://registry.yarnpkg.com/cozy-bar/-/cozy-bar-29.2.0.tgz#4e0e55289c6015fe9039f285fab306daa4eedb5b"
-  integrity sha512-yaq0wqAeONxTMsxyY+y0Q5WrCxlKNXy8qSD1h7A2x1ZvfU8AOO7lR5FpNS7kI5XZER+2ZQFG+hJolV/nOoF0jA==
+cozy-bar@^30.0.0:
+  version "30.0.0"
+  resolved "https://registry.yarnpkg.com/cozy-bar/-/cozy-bar-30.0.0.tgz#2423bb32766d5472d4f7fa3f0e5b9f321799363c"
+  integrity sha512-ae/0NT6tQCCi3M2XKweGaEgcz+jpXWUapGKZAXM6n2q141YXxAzTn90P3LVIORVGhObAf/3QQVVIfQISXnirCA==
   dependencies:
     lodash.set "^4.3.2"
     lodash.unionwith "4.6.0"
@@ -4173,10 +4173,10 @@ cozy-ui-plus@^4.5.1:
     react-final-form-arrays "3.1.4"
     rooks "7.14.1"
 
-cozy-ui@^136.1.0:
-  version "136.1.0"
-  resolved "https://registry.yarnpkg.com/cozy-ui/-/cozy-ui-136.1.0.tgz#256f847a26ac562c720c8b1e55eaeca10249dbf4"
-  integrity sha512-a5ueb2jyQk8EsS/kNVJ8tYC+lnfJ1PKqgk/muRmVvK4We0O/9XTDdyQ77f5zNj2H/69Ck0isAQoLn6z6idwcgA==
+cozy-ui@^137.0.0:
+  version "137.0.0"
+  resolved "https://registry.yarnpkg.com/cozy-ui/-/cozy-ui-137.0.0.tgz#8973472b924b20e4e9101de7fb8120daec3ab25a"
+  integrity sha512-/vT+7hmZlC35WZW8MuIqAas9ngUBxKd8m5Fi+EEWdcLXiyFWl9uJG0HG9s/Xr0Duk4eY4Vmoeus3wWwkCZtn8A==
   dependencies:
     "@babel/runtime" "^7.3.4"
     "@date-io/date-fns" "1"

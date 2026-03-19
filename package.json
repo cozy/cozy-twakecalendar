@@ -52,7 +52,7 @@
   },
   "dependencies": {
     "comlink": "^4.4.2",
-    "cozy-bar": "^29.2.0",
+    "cozy-bar": "^30.0.0",
     "cozy-client": "^60.21.2",
     "cozy-dataproxy-lib": "^4.13.1",
     "cozy-device-helper": "^4.0.2",
@@ -64,7 +64,7 @@
     "cozy-pouch-link": "^60.21.2",
     "cozy-realtime": "^5.8.2",
     "cozy-search": "^0.16.2",
-    "cozy-ui": "^136.1.0",
+    "cozy-ui": "^137.0.0",
     "cozy-ui-plus": "^4.5.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",

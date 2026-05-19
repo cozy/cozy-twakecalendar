@@ -13,6 +13,11 @@ const AppLayout = () => {
         searchOptions={{ enabled: false }}
         appIcon={Calendar}
         appTextIcon={CalendarText}
+        componentsProps={{
+          CozyTheme: {
+            type: 'light'
+          }
+        }}
       />
       <Outlet />
     </>

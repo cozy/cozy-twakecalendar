@@ -10,10 +10,6 @@ import AppProviders from '@/components/AppProviders'
 import setupApp from '@/targets/browser/setupApp'
 import AppRouter from '@/components/AppRouter'
 
-// We need to force light mode because Twake Calendar embedded app
-// does not support dark mode
-localStorage.setItem('ui-theme-type', 'light')
-
 const init = () => {
   const { root, client, lang, polyglot } = setupApp()
 

@@ -13,6 +13,7 @@
     "name": "Twake Workplace",
     "url": "https://twake.app"
   },
+  "client_url_flag": "calendar.embedded-app-url",
   "routes": {
     "/": {
       "folder": "/",

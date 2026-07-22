@@ -1,6 +1,0 @@
-{
-  "extends": ["cozy-app/react"],
-  "parserOptions": {
-    "project": ["./tsconfig.json"]
-  }
-}

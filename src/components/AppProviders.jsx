@@ -1,11 +1,11 @@
 import React from 'react'
-import I18n from 'twake-i18n'
 
 import { BarProvider } from 'cozy-bar'
 import { CozyProvider } from 'cozy-client'
 import { DataProxyProvider } from 'cozy-dataproxy-lib'
 import { WebviewIntentProvider } from 'cozy-intent'
 import { BreakpointsProvider } from 'cozy-ui/transpiled/react/providers/Breakpoints'
+import I18n from 'twake-i18n'
 
 const AppProviders = ({ client, lang, polyglot, children }) => {
   return (

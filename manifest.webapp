@@ -37,15 +37,12 @@
       "type": "io.cozy.settings",
       "verbs": ["GET"]
     },
-    "contacts": {
-      "description": "Required by the cozy-bar to display the avatar",
-      "type": "io.cozy.contacts",
-      "verbs": ["GET"]
-    },
     "files": {
       "description": "Required to get shortcuts",
       "type": "io.cozy.files",
-      "verbs": ["GET"]
+      "verbs": ["GET"],
+      "selector": "name",
+      "values": ["Home"]
     }
   }
 }

@@ -1,0 +1,52 @@
+{
+  "name": "Calendar",
+  "name_prefix": "Twake",
+  "slug": "calendar",
+  "version": "1.4.0",
+  "type": "webapp",
+  "licence": "AGPL-3.0",
+  "icon": "assets/icon.svg",
+  "categories": ["cozy"],
+  "source": "https://github.com/cozy/cozy-twakecalendar",
+  "editor": "Cozy",
+  "developer": {
+    "name": "Twake Workplace",
+    "url": "https://twake.app"
+  },
+  "client_url_flag": "calendar.embedded-app-url",
+  "routes": {
+    "/": {
+      "folder": "/",
+      "index": "index.html",
+      "public": false
+    },
+    "/assets": {
+      "folder": "/assets",
+      "public": true
+    }
+  },
+  "permissions": {
+    "banners": {
+      "description": "Required by the cozy-bar to display platform messages",
+      "type": "io.cozy.banners",
+      "verbs": ["GET", "PUT"]
+    },
+    "apps": {
+      "description": "Required by the cozy-bar to display the icons of the apps",
+      "type": "io.cozy.apps",
+      "verbs": ["GET"]
+    },
+    "settings": {
+      "description": "Required by the cozy-bar to display storage usage",
+      "type": "io.cozy.settings",
+      "verbs": ["GET"]
+    },
+    "files": {
+      "description": "Required to get shortcuts",
+      "type": "io.cozy.files",
+      "verbs": ["GET"],
+      "selector": "name",
+      "values": ["Home"]
+    }
+  }
+}

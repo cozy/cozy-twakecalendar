@@ -14,6 +14,7 @@
     "url": "https://twake.app"
   },
   "client_url_flag": "calendar.embedded-app-url",
+  "standalone": true,
   "routes": {
     "/": {
       "folder": "/",

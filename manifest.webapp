@@ -20,10 +20,6 @@
       "folder": "/",
       "index": "index.html",
       "public": false
-    },
-    "/assets": {
-      "folder": "/assets",
-      "public": true
     }
   },
   "permissions": {

@@ -38,7 +38,7 @@
     "@linagora/twake-icons": "^2.7.0",
     "comlink": "^4.4.2",
     "cozy-bar": "^36.2.0",
-    "cozy-client": "^60.34.0",
+    "cozy-client": "^60.45.0",
     "cozy-dataproxy-lib": "^4.15.5",
     "cozy-device-helper": "^4.0.3",
     "cozy-external-bridge-container": "^1.3.0",

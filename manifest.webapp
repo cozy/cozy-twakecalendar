@@ -52,6 +52,11 @@
       "action": "CREATE",
       "type": ["io.cozy.calendar.events"],
       "href": "/intents"
+    },
+    {
+      "action": "OPEN",
+      "type": ["io.cozy.calendar.events"],
+      "href": "/intents"
     }
   ]
 }

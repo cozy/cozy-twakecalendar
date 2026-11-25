@@ -9,33 +9,9 @@ on:
       - '[0-9]+.[0-9]+.[0-9]+'
       - '[0-9]+.[0-9]+.[0-9]+-beta.[0-9]+'
 
-env:
-  REGISTRY_TOKEN: ${{ secrets.REGISTRY_TOKEN }}
-
 jobs:
   build:
-    name: Build and publish
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Use Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version-file: '.nvmrc'
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
-      - name: Lint
-        run: yarn lint
-      - name: Build
-        run: yarn build
-      - name: BundleMon
-        uses: lironer/bundlemon-action@v1
-        continue-on-error: true
-      - name: Set SSH for downcloud
-        uses: webfactory/ssh-agent@v0.9.0
-        with:
-          ssh-private-key: ${{ secrets.DOWNCLOUD_SSH_KEY }}
-      - name: Publish
-        if: github.ref == 'refs/heads/master' || startsWith(github.ref, 'refs/tags/')
-        run: yarn run cozyPublish --yes
+    uses: linagora/twake-workflows/.github/workflows/build-and-publish-cozy-app.yml@c6f6a4de61671a4e5d440d138c5544e4233b58c7 # v1.7.0
+    secrets:
+      REGISTRY_TOKEN: ${{ secrets.REGISTRY_TOKEN }}
+      DOWNCLOUD_SSH_KEY: ${{ secrets.DOWNCLOUD_SSH_KEY }}

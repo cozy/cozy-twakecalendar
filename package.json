@@ -9,6 +9,7 @@
     "lint": "yarn lint:js && yarn lint:styles",
     "lint:js": "eslint '{src,test}/**/*.{js,jsx,ts,tsx}'",
     "lint:styles": "stylint src/styles --config ./.stylintrc",
+    "test": "echo \"No tests yet\"",
     "cozyPublish": "cozy-app-publish --token $REGISTRY_TOKEN --prepublish downcloud"
   },
   "repository": {
